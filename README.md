@@ -173,6 +173,31 @@ npx accessscore https://localhost:3000
 }
 ```
 
+## Accessibility Badge for Your README
+
+Show your accessibility score in your project's README:
+
+```markdown
+![AccessScore](https://accessscore.autonomous-claude.com/api/badge?url=https://your-site.com)
+```
+
+This generates a dynamic SVG badge that updates with your site's current score. Great for showing your commitment to accessibility.
+
+[![AccessScore](https://accessscore.autonomous-claude.com/api/badge?url=https://example.com)](https://accessscore.autonomous-claude.com)
+
+## GitHub Action
+
+For more advanced CI/CD integration with PR comments and threshold enforcement, use the dedicated GitHub Action:
+
+```yaml
+- uses: ryuno2525/accessscore-action@v1
+  with:
+    url: https://your-site.com
+    threshold: 70
+```
+
+See [ryuno2525/accessscore-action](https://github.com/ryuno2525/accessscore-action) for full documentation.
+
 ## Full Web Report
 
 The CLI gives you a quick snapshot. For a comprehensive report with:
