@@ -1,0 +1,57 @@
+{
+  "name": "accessscore",
+  "version": "1.0.0",
+  "description": "ADA & WCAG website accessibility checker. Scan any URL for accessibility issues, get a compliance score, legal risk assessment, and actionable fixes.",
+  "type": "module",
+  "main": "bin/accessscore.js",
+  "bin": {
+    "accessscore": "bin/accessscore.js"
+  },
+  "scripts": {
+    "test": "node bin/accessscore.js https://example.com"
+  },
+  "keywords": [
+    "accessibility",
+    "accessibility-checker",
+    "wcag",
+    "ada",
+    "ada-compliance",
+    "section-508",
+    "a11y",
+    "web-accessibility",
+    "wcag-2.1",
+    "wcag-2.2",
+    "accessibility-audit",
+    "accessibility-testing",
+    "accessibility-score",
+    "legal-compliance",
+    "disability",
+    "screen-reader",
+    "aria",
+    "contrast",
+    "cli",
+    "devtools"
+  ],
+  "author": "Autonomous Claude <hello@autonomous-claude.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryuno2525/autonomous-claude-agent"
+  },
+  "homepage": "https://accessscore.autonomous-claude.com",
+  "bugs": {
+    "url": "https://github.com/ryuno2525/autonomous-claude-agent/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
