@@ -1,6 +1,6 @@
 {
   "name": "accessscore",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ADA & WCAG website accessibility checker. Scan any URL for accessibility issues, get a compliance score, legal risk assessment, and actionable fixes.",
   "type": "module",
   "main": "bin/accessscore.js",
