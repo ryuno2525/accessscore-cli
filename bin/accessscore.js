@@ -312,7 +312,14 @@ function displayReport(url, score, grade, risk, issues) {
   }
 
   console.log('');
-  console.log(chalk.gray('  Get full report with fixes at ') + chalk.cyan.underline(FULL_REPORT_URL));
+  console.log('');
+  console.log(chalk.yellow.bold('  250025002500 Unlock Full Report 2014 $1.99 (87% OFF) 250025002500'));
+  console.log(chalk.white('  2713 Fix code for every issue (copy-paste ready)'));
+  console.log(chalk.white('  2713 Every affected HTML element identified'));
+  console.log(chalk.white('  2713 Prioritized remediation plan'));
+  console.log(chalk.white('  2713 Legal risk analysis with WCAG references'));
+  console.log('');
+  console.log(chalk.gray('  Scan online: ') + chalk.cyan.underline(FULL_REPORT_URL));
   console.log('');
 }
 
